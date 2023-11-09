@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Каталог"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('sprite/sprite.svg,{})
+			@@include('html/_header.htm',{})
+			<main class="page page_inner">
+                <div class="page__header">
+                    <div class="page__container">
+                        <div class="page__controll">
+                            <nav class="page__breadcrumbs breadcrumbs">
+                                <ul class="breadcrumbs__list">
+                                    <li class="breadcrumbs__item">
+                                        <a href="/" class="breadcrumbs__link">Главная</a>
+                                    </li>
+                                    <li class="breadcrumbs__item">
+                                        <span class="breadcrumbs__current">Каталог</span>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="catalog">
+                    <section class="catalog__ceilings ceilings-catalog">
+                        <div class="ceilings-catalog__container">
+                            <h2 class="ceilings-catalog__title">Каталог натяжных потолков</h2>
+                            <p class="ceilings-catalog__descr">
+                                Наша компания готова предложить вам лучшие решения для создания прекрасного интерьера вашего дома или офиса. Мы предоставляем широкий выбор материалов и технологий, которые позволят вам получить потолок любой сложности и конфигурации.
+                            </p>
+                            <div data-tabs class="ceilings-catalog__tabs catalog-tabs tabs-site">
+                                <button class="tabs-site--mobile tabs-mobile-3 btn-blue">
+                                    <span>По материалу</span>
+                                    <svg class="icon">
+                                        <use xlink:href="#arrow-spoll"></use>
+                                    </svg>
+                                </button>
+                                <div class="catalog-tabs__navs tabs-site--navs">
+                                    <nav data-tabs-titles class="catalog-tabs__navigation tabs-site--nav">
+                                        <button type="button" class="catalog-tabs__title tabs-site--btn">Все</button>
+                                        <button type="button" class="catalog-tabs__title tabs-site--btn _tab-active">По материалу</button>
+                                        <button type="button" class="catalog-tabs__title tabs-site--btn">С подсветкой</button>
+                                        <button type="button" class="catalog-tabs__title tabs-site--btn">Эксклюзивные</button>
+                                        <button type="button" class="catalog-tabs__title tabs-site--btn">Цветные</button>
+                                        <button type="button" class="catalog-tabs__title tabs-site--btn">Доп. услуги</button>
+                                        <button type="button" class="catalog-tabs__title tabs-site--btn">Готовые решения</button>
+                                    </nav>
+                                </div>
+                                <div data-tabs-body class="catalog-tabs__content tabs-site--content">
+                                    <div class="catalog-tabs__body body-catalog-tabs tabs-site--body">
+                                        Содержимое первого таба
+                                    </div>
+                                    <div class="catalog-tabs__body body-catalog-tabs tabs-site--body">
+                                        <h3 class="body-catalog-tabs__title">Натяжные потолки по фактуре</h3>
+                                        <div class="body-catalog-tabs__inner">
+                                            <div class="body-catalog-tabs__row">
+                                                <div class="body-catalog-tabs__image image-catalog-image">
+                                                    <div class="image-catalog-image__slider twoLevel-slide">
+                                                        <div data-gallery class="image-catalog-image__swiper">
+                                                            <a href="@img/catalog/twoLevel/image-1.jpg" class="image-catalog-image__slide site-slide">
+                                                                <div class="mage-catalog-image__glass site-slide_glass">
+                                                                    <div class="mage-catalog-image__glass-box site-slide_glass-box">
+                                                                        <svg class="icon">
+                                                                            <use xlink:href="#glass"></use>
+                                                                        </svg>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slider-works__img-ibg site-slide_img">
+                                                                    <img src="@img/catalog/twoLevel/image-1.jpg" alt="потолки">
+                                                                </div>
+                                                            </a>
+                                                            <a href="@img/catalog/twoLevel/image-big_2.jpg" class="image-catalog-image__slide site-slide">
+                                                                <div class="mage-catalog-image__glass site-slide_glass">
+                                                                    <div class="mage-catalog-image__glass-box site-slide_glass-box">
+                                                                        <svg class="icon">
+                                                                            <use xlink:href="#glass"></use>
+                                                                        </svg>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slider-works__img-ibg site-slide_img">
+                                                                    <img src="@img/catalog/twoLevel/image-big_2.jpg" alt="потолки">
+                                                                </div>
+                                                            </a>
+                                                            <a href="@img/catalog/twoLevel/image-3.jpg" class="image-catalog-image__slide site-slide">
+                                                                <div class="mage-catalog-image__glass site-slide_glass">
+                                                                    <div class="mage-catalog-image__glass-box site-slide_glass-box">
+                                                                        <svg class="icon">
+                                                                            <use xlink:href="#glass"></use>
+                                                                        </svg>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slider-works__img-ibg site-slide_img">
+                                                                    <img src="@img/catalog/twoLevel/image-3.jpg" alt="потолки">
+                                                                </div>
+                                                            </a>
+                                                            <a href="@img/catalog/twoLevel/image-1.jpg" class="image-catalog-image__slide site-slide">
+                                                                <div class="mage-catalog-image__glass site-slide_glass">
+                                                                    <div class="mage-catalog-image__glass-box site-slide_glass-box">
+                                                                        <svg class="icon">
+                                                                            <use xlink:href="#glass"></use>
+                                                                        </svg>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slider-works__img-ibg site-slide_img">
+                                                                    <img src="@img/catalog/twoLevel/image-1.jpg" alt="потолки">
+                                                                </div>
+                                                            </a>
+                                                            <a href="@img/catalog/twoLevel/image-big_2.jpg" class="image-catalog-image__slide site-slide">
+                                                                <div class="mage-catalog-image__glass site-slide_glass">
+                                                                    <div class="mage-catalog-image__glass-box site-slide_glass-box">
+                                                                        <svg class="icon">
+                                                                            <use xlink:href="#glass"></use>
+                                                                        </svg>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slider-works__img-ibg site-slide_img">
+                                                                    <img src="@img/catalog/twoLevel/image-big_2.jpg" alt="потолки">
+                                                                </div>
+                                                            </a>
+                                                            <a href="@img/catalog/twoLevel/image-3.jpg" class="image-catalog-image__slide site-slide">
+                                                                <div class="mage-catalog-image__glass site-slide_glass">
+                                                                    <div class="mage-catalog-image__glass-box site-slide_glass-box">
+                                                                        <svg class="icon">
+                                                                            <use xlink:href="#glass"></use>
+                                                                        </svg>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slider-works__img-ibg site-slide_img">
+                                                                    <img src="@img/catalog/twoLevel/image-3.jpg" alt="потолки">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="image-catalog-image__controll controll-gallery-slider">
+                                                            <div class="controll-gallery-slider__blocks">
+                                                                <button type="button" class="controll-gallery-slider__prev twoLevel-slide_prev">
+                                                                    <svg class="icon">
+                                                                        <use xlink:href="#arrow-swiper"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <div class="controll-gallery-slider__blocks">
+                                                                <button type="button" class="controll-gallery-slider__next twoLevel-slide_next">
+                                                                    <svg class="icon">
+                                                                        <use xlink:href="#arrow-swiper"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div data-da=".body-catalog-tabs__content_1, 991.98" class="image-catalog-image__btns btns-image-catalog">
+                                                        <button class="btns-image-catalog__btn btns-image-catalog__btn_white">Подробнее</button>
+                                                        <button class="btns-image-catalog__btn btns-image-catalog__btn_blue btn-blue">Заказать 
+                                                            <svg class="icon">
+                                                                <use xlink:href="#arrow-right"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="body-catalog-tabs__content body-catalog-tabs__content_1 content-catalog-tabs">
+                                                    <h4 class="content-catalog-tabs__subtitle">Двухуровневые</h4>
+                                                    <p class="content-catalog-tabs__descr">
+                                                        На сайте нашей компании вы можете выбрать и заказать двухуровневые натяжные потолки в квартиру или коттедж. 
+                                                        Такие потолки могут быть обычными или комбинированными. Комбинированный потолок состоит из гипсокартонного каркаса и полотна, а простой двухуровневый потолок предполагает установку нескольких полотен на разных уровнях.
+                                                    </p>
+                                                    <div class="content-catalog-tabs__thumbs thumbs-tabs twoLevel-thumbs">
+                                                        <div class="thumbs-tabs__controll">
+                                                            <button class="thumbs-tabs__btn thumbs-tabs__btn_prev twoLevel-thumbs_prev">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#arrow-swiper_black"></use>
+                                                                </svg>
+                                                            </button>
+                                                            <button class="thumbs-tabs__btn thumbs-tabs__btn_next twoLevel-thumbs_next">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#arrow-swiper_black"></use>
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                        <div class="thumbs-tabs__swiper">
+                                                            <div class="thumbs-tabs__slide-ibg">
+                                                                <img src="@img/catalog/twoLevel/image-1.jpg" alt="потолки">
+                                                            </div>
+                                                            <div class="thumbs-tabs__slide-ibg">
+                                                                <img src="@img/catalog/twoLevel/image-2.jpg" alt="потолки">
+                                                            </div>
+                                                            <div class="thumbs-tabs__slide-ibg">
+                                                                <img src="@img/catalog/twoLevel/image-3.jpg" alt="потолки">
+                                                            </div>
+                                                            <div class="thumbs-tabs__slide-ibg">
+                                                                <img src="@img/catalog/twoLevel/image-1.jpg" alt="потолки">
+                                                            </div>
+                                                            <div class="thumbs-tabs__slide-ibg">
+                                                                <img src="@img/catalog/twoLevel/image-2.jpg" alt="потолки">
+                                                            </div>
+                                                            <div class="thumbs-tabs__slide-ibg">
+                                                                <img src="@img/catalog/twoLevel/image-3.jpg" alt="потолки">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="body-catalog-tabs__row">
+                                                <div class="body-catalog-tabs__image image-catalog-image">
+                                                    <div class="image-catalog-image__slider inexpensive-slide">
+                                                        <div data-gallery class="image-catalog-image__swiper">
+                                                            <a href="@img/catalog/inexpensive/image_big-1.jpg" class="image-catalog-image__slide site-slide">
+                                                                <div class="mage-catalog-image__glass site-slide_glass">
+                                                                    <div class="mage-catalog-image__glass-box site-slide_glass-box">
+                                                                        <svg class="icon">
+                                                                            <use xlink:href="#glass"></use>
+                                                                        </svg>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slider-works__img-ibg site-slide_img">
+                                                                    <img src="@img/catalog/inexpensive/image_big-1.jpg" alt="потолки">
+                                                                </div>
+                                                            </a>
+                                                            <a href="@img/catalog/inexpensive/image_2.jpg" class="image-catalog-image__slide site-slide">
+                                                                <div class="mage-catalog-image__glass site-slide_glass">
+                                                                    <div class="mage-catalog-image__glass-box site-slide_glass-box">
+                                                                        <svg class="icon">
+                                                                            <use xlink:href="#glass"></use>
+                                                                        </svg>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slider-works__img-ibg site-slide_img">
+                                                                    <img src="@img/catalog/inexpensive/image_2.jpg" alt="потолки">
+                                                                </div>
+                                                            </a>
+                                                            <a href="@img/catalog/inexpensive/image_3.jpg" class="image-catalog-image__slide site-slide">
+                                                                <div class="mage-catalog-image__glass site-slide_glass">
+                                                                    <div class="mage-catalog-image__glass-box site-slide_glass-box">
+                                                                        <svg class="icon">
+                                                                            <use xlink:href="#glass"></use>
+                                                                        </svg>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slider-works__img-ibg site-slide_img">
+                                                                    <img src="@img/catalog/inexpensive/image_3.jpg" alt="потолки">
+                                                                </div>
+                                                            </a>
+                                                            <a href="@img/catalog/inexpensive/image_big-1.jpg" class="image-catalog-image__slide site-slide">
+                                                                <div class="mage-catalog-image__glass site-slide_glass">
+                                                                    <div class="mage-catalog-image__glass-box site-slide_glass-box">
+                                                                        <svg class="icon">
+                                                                            <use xlink:href="#glass"></use>
+                                                                        </svg>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slider-works__img-ibg site-slide_img">
+                                                                    <img src="@img/catalog/inexpensive/image_big-1.jpg" alt="потолки">
+                                                                </div>
+                                                            </a>
+                                                            <a href="@img/catalog/inexpensive/image_2.jpg" class="image-catalog-image__slide site-slide">
+                                                                <div class="mage-catalog-image__glass site-slide_glass">
+                                                                    <div class="mage-catalog-image__glass-box site-slide_glass-box">
+                                                                        <svg class="icon">
+                                                                            <use xlink:href="#glass"></use>
+                                                                        </svg>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slider-works__img-ibg site-slide_img">
+                                                                    <img src="@img/catalog/inexpensive/image_2.jpg" alt="потолки">
+                                                                </div>
+                                                            </a>
+                                                            <a href="@img/catalog/inexpensive/image_3.jpg" class="image-catalog-image__slide site-slide">
+                                                                <div class="mage-catalog-image__glass site-slide_glass">
+                                                                    <div class="mage-catalog-image__glass-box site-slide_glass-box">
+                                                                        <svg class="icon">
+                                                                            <use xlink:href="#glass"></use>
+                                                                        </svg>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="slider-works__img-ibg site-slide_img">
+                                                                    <img src="@img/catalog/inexpensive/image_3.jpg" alt="потолки">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="image-catalog-image__controll controll-gallery-slider">
+                                                            <div class="controll-gallery-slider__blocks">
+                                                                <button type="button" class="controll-gallery-slider__prev inexpensive-slide_prev">
+                                                                    <svg class="icon">
+                                                                        <use xlink:href="#arrow-swiper"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                            <div class="controll-gallery-slider__blocks">
+                                                                <button type="button" class="controll-gallery-slider__next inexpensive-slide_next">
+                                                                    <svg class="icon">
+                                                                        <use xlink:href="#arrow-swiper"></use>
+                                                                    </svg>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div data-da=".body-catalog-tabs__content_2, 991.98" class="image-catalog-image__btns btns-image-catalog">
+                                                        <button class="btns-image-catalog__btn btns-image-catalog__btn_white">Подробнее</button>
+                                                        <button class="btns-image-catalog__btn btns-image-catalog__btn_blue btn-blue">Заказать 
+                                                            <svg class="icon">
+                                                                <use xlink:href="#arrow-right"></use>
+                                                            </svg>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="body-catalog-tabs__content body-catalog-tabs__content_2 content-catalog-tabs">
+                                                    <h4 class="content-catalog-tabs__subtitle">Недорогие</h4>
+                                                    <p class="content-catalog-tabs__descr">
+                                                        Наша компания предлагает широкий выбор недорогих решений для создания прекрасного интерьера вашего дома или офиса. Мы используем только проверенные материалы и технологии, чтобы гарантировать качество и долговечность нашей работы.
+                                                    </p>
+                                                    <div class="content-catalog-tabs__thumbs thumbs-tabs inexpensive-thumbs">
+                                                        <div class="thumbs-tabs__controll">
+                                                            <button class="thumbs-tabs__btn thumbs-tabs__btn_prev inexpensive-thumbs_prev">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#arrow-swiper_black"></use>
+                                                                </svg>
+                                                            </button>
+                                                            <button class="thumbs-tabs__btn thumbs-tabs__btn_next inexpensive-thumbs_next">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#arrow-swiper_black"></use>
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                        <div class="thumbs-tabs__swiper">
+                                                            <div class="thumbs-tabs__slide-ibg">
+                                                                <img src="@img/catalog/inexpensive/image_1.jpg" alt="потолки">
+                                                            </div>
+                                                            <div class="thumbs-tabs__slide-ibg">
+                                                                <img src="@img/catalog/inexpensive/image_2.jpg" alt="потолки">
+                                                            </div>
+                                                            <div class="thumbs-tabs__slide-ibg">
+                                                                <img src="@img/catalog/inexpensive/image_3.jpg" alt="потолки">
+                                                            </div>
+                                                            <div class="thumbs-tabs__slide-ibg">
+                                                                <img src="@img/catalog/inexpensive/image_1.jpg" alt="потолки">
+                                                            </div>
+                                                            <div class="thumbs-tabs__slide-ibg">
+                                                                <img src="@img/catalog/inexpensive/image_2.jpg" alt="потолки">
+                                                            </div>
+                                                            <div class="thumbs-tabs__slide-ibg">
+                                                                <img src="@img/catalog/inexpensive/image_3.jpg" alt="потолки">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="catalog-tabs__body body-catalog-tabs tabs-site--body">
+                                        Содержимое третьего таба
+                                    </div>
+                                    <div class="catalog-tabs__body body-catalog-tabs tabs-site--body">
+                                        Содержимое 4 таба
+                                    </div>
+                                    <div class="catalog-tabs__body body-catalog-tabs tabs-site--body">
+                                        Содержимое 5 таба
+                                    </div>
+                                    <div class="catalog-tabs__body body-catalog-tabs tabs-site--body">
+                                        Содержимое 6 таба
+                                    </div>
+                                    <div class="catalog-tabs__body body-catalog-tabs tabs-site--body">
+                                        Содержимое 7 таба
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="catalog__calc calc">
+                        @@include('html/_calc.htm',{})
+                    </section>
+                    <section class="catalog__sales sales">
+                        @@include('html/_sales.htm',{})
+                    </section>
+                </div>                
+            </main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>

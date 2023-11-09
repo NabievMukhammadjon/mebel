@@ -1,0 +1,66 @@
+<div class="calc__container">
+    <h2 class="calc__title">Рассчитать стоимость натяжного потолка</h2>
+    <div class="calc__content">
+        <div class="calc__top">
+            <div class="calc__settings settings-calc">
+                <strong class="settings-calc__title calc-title">Выберите тип</strong>
+                <div class="settings-calc__radios radios-calc">
+                    <div class="radios-calc__block">
+                        <input id="radio-1" name="customRadio" type="radio" class="radios-calc__radio" data-number="18" value="Матовый" checked>
+                        <label for="radio-1" class="radios-calc__label"><span>Матовый</span></label>
+                    </div>
+                    <div class="radios-calc__block">
+                        <input id="radio-2" name="customRadio" type="radio" class="radios-calc__radio" data-number="12" value="Глянцевый">
+                        <label for="radio-2" class="radios-calc__label"><span>Глянцевый</span></label>
+                    </div>
+                    <div class="radios-calc__block">
+                        <input id="radio-3" name="customRadio" type="radio" class="radios-calc__radio" data-number="7" value="Сатиновый">
+                        <label for="radio-3" class="radios-calc__label"><span>Сатиновый</span></label>
+                    </div>
+                    <div class="radios-calc__block">
+                        <input id="radio-4" name="customRadio" type="radio" class="radios-calc__radio" data-number="24" value="Тканевый">
+                        <label for="radio-4" class="radios-calc__label"><span>Тканевый</span></label>
+                    </div>
+                    <div class="radios-calc__block">
+                        <input id="radio-5" name="customRadio" type="radio" class="radios-calc__radio" data-number="16" value="Фотопечать">
+                        <label for="radio-5" class="radios-calc__label"><span>Фотопечать</span></label>
+                    </div>									
+                </div>
+            </div>
+            <div class="calc__quantity quantity-calc">
+                <div class="quantity-calc__item">
+                    <strong class="quantity-calc__title calc-title">Площадь</strong>
+                    <div class="quantity-calc__block">
+                        <label class="quantity-calc__label">
+                            <input id="calcDemo" type="text" class="quantity-calc__input" maxlength="3" value="10">
+                            <span>м2</span>
+                        </label>
+                        <input id="calcRange" type="range" class="quantity-calc__range" min="0" max="100" value="10">
+                    </div>
+                </div>
+                <div class="quantity-calc__item">
+                    <strong class="quantity-calc__title quantity-calc__title_left calc-title">Кол-во комнат</strong>
+                    <select name="form[]" class="quantity-calc__select" data-class-modif="form">
+                        <option class="quantity-calc__option" value="1">1</option>
+                        <option class="quantity-calc__option" value="2" selected>2</option>
+                        <option class="quantity-calc__option" value="3">3</option>
+                        <option class="quantity-calc__option" value="4">4</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="calc__bottom">
+            <div class="calc__resp">
+                <div class="calc__response response-calc">
+                    <strong class="response-calc__res">Итог:</strong>
+                    <strong class="response-calc__price">23 000</strong>
+                    <span class="response-calc__currency">руб.</span>
+                    <span class="response-calc__old-price">25 000</span>
+                </div>
+                <button class="calc__button btn-blue">Получить точный расчет</button>
+            </div>
+            <p class="calc__text">Цена указана для ознакомления и не учитывает индивидуальных особенностей</p>
+        </div>
+    </div>
+</div>	
+

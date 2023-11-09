@@ -1,0 +1,212 @@
+.gallery {
+    padding-bottom: rem(84);
+    /* .gallery__container */
+    &__container {
+    }
+
+    /* .gallery__title */
+    &__title {
+        font-size: rem(32);
+        font-weight: 700;
+        line-height: normal;
+        &:not(:last-child) {
+            margin-bottom: rem(40);
+        }
+    }
+
+    /* .gallery__tabs */
+    &__tabs {}
+}
+
+.tabs-gallery {
+
+    /* .tabs-gallery__navigation */
+    &__navigation {}
+
+    /* .tabs-gallery__title */
+    &__title {}
+
+    /* .tabs-gallery__content */
+    &__content {}
+
+    /* .tabs-gallery__body */
+    &__body {}
+
+    /* .tabs-gallery__row */
+    &__row {
+        &:not(:last-child) {
+            margin-bottom: rem(32);
+        }
+    }
+}
+
+.row-gallery {
+
+    /* .row-gallery__subtitle */
+    &__subtitle {
+        display: block;
+        font-size: rem(20);
+        font-weight: 700;
+        line-height: normal;
+        &:not(:last-child) {
+            margin-bottom: rem(30);
+        }
+    }
+
+    /* .row-gallery__content */
+    &__content {
+        @media (min-width:$tablet){
+            display: grid;
+            grid-template-columns: minmax(auto, 460px) 1fr;     
+        }
+        // grid-template-columns: minmax(auto, 592px) 1fr;
+        // grid-template-columns: minmax(auto, 390px) 1fr;
+        gap: 30px;
+    }
+
+    /* .row-gallery__slider */
+    &__slider {
+        position: relative; 
+        @media (max-width:$tablet){
+            margin-bottom: rem(27);
+        }
+    }
+
+    /* .row-gallery__swiper */
+    &__swiper {}
+
+    /* .row-gallery__slide-ibg */
+    &__slide {
+    }
+
+    /* .row-gallery__controll */
+    &__controll {}
+
+    /* .row-gallery__images */
+    &__images {}
+    &__glass {}
+    &__glass-box {}
+    &__img-ibg {
+        padding-bottom: percent(390, 390);     
+        @media (min-width:$tablet){
+            padding-bottom: percent(416, 390);     
+        }
+        @media (max-width:$tablet){
+            padding-bottom: percent(211, 294);     
+            border-radius: 15px;
+        }
+    }
+    /* .row-gallery__thumbs */
+    &__thumbs {
+    }
+}
+
+.thumbs-gallery {
+    @media (min-width:$tablet){
+        display: none; 
+    }
+    /* .thumbs-gallery__slider */
+    &__slider {
+        margin: -20px;
+        padding: 20px;
+    }
+
+    /* .thumbs-gallery__swiper */
+    &__swiper {
+    }
+
+    /* .thumbs-gallery__slide-ibg */
+    &__slide-ibg {
+        padding-bottom: percent(105, 320);
+        &.swiper-slide-thumb-active {
+            border-radius: 5px;
+            outline: 3px solid var(--light-blue, #9BBDF4);
+            outline-offset: 8px;
+        }
+    }
+    
+}
+
+
+.controll-gallery-slider {
+
+    /* .controll-gallery-slider__blocks */
+    &__blocks {}
+
+    /* .controll-gallery-slider__prev */
+    &__prev {}
+
+    /* .controll-gallery-slider__next */
+    &__next {}
+}
+
+.images-gallery {
+    @media (max-width:$tablet){
+        display: none;
+    }
+    /* .images-gallery__list */
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: rem(16);
+        &:not(:last-child) {
+            margin-bottom: rem(24);
+        }
+    }
+
+    /* .images-gallery__item */
+    &__item {
+        img {
+            width: 100%;
+        }
+    }
+    &__item-ibg {
+        // padding-bottom: percent(152, 152);
+    }
+
+    /* .images-gallery__btns */
+    &__btns {
+        display: flex;
+        gap: rem(20);
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* .images-gallery__btn */
+    &__btn {
+        padding: 14px 62px;
+        font-size: rem(20);
+        font-style: normal;
+        font-weight: 700;
+        border-radius: rem(5);
+        box-shadow: 0px 3px 46px rgba(66, 133, 244, 0.2);
+        @media (max-width:$tablet){
+            display: none;
+        }
+        /* .images-gallery__btn_blue */
+        &_blue {
+            
+            color: $white;
+            background-color: $darkBlue;
+        }
+    }
+}
+
+.first-gallery {
+    /* .first-gallery_prev */
+    &_prev {}
+
+    /* .first-gallery_next */
+    &_next {}
+}
+
+.second-gallery {
+
+    /* .second-gallery_prev */
+    &_prev {}
+
+    /* .second-gallery_next */
+    &_next {}
+}
+
+//========================================================================================================================================================

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Карточка товара"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('sprite/sprite.svg,{})
+			@@include('html/_header.htm',{})
+			<main class="page page_inner">
+                <div class="page__header">
+                    <div class="page__container">
+                        <div class="page__controll">
+                            <nav class="page__breadcrumbs breadcrumbs">
+                                <ul class="breadcrumbs__list">
+                                    <li class="breadcrumbs__item">
+                                        <a href="/" class="breadcrumbs__link">Главная</a>
+                                    </li>
+                                    <li class="breadcrumbs__item">
+                                        <a href="./catalog.html" class="breadcrumbs__link">Каталог</a>
+                                    </li>
+                                    <li class="breadcrumbs__item">
+                                        <span class="breadcrumbs__current">Карточка товара</span>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="product">
+                    <div class="product__container">
+                        <h2 class="product__title">Карточка товара</h2>
+                        <div data-tabs class="product__tabs tabs-product tabs-site">
+                            <button class="tabs-site--mobile tabs-mobile-4 btn-blue">
+								<span>Товар</span>
+								<svg class="icon">
+									<use xlink:href="#arrow-spoll"></use>
+								</svg>
+							</button>
+                            <div class="tabs-product__navs tabs-site--navs">
+                                <nav data-tabs-titles class="tabs-product__navigation tabs-site--nav">
+                                    <button type="button" class="tabs-product__title tabs-site--btn _tab-active">Товар</button>
+                                    <button type="button" class="tabs-product__title tabs-site--btn">Цена</button>
+                                    <button type="button" class="tabs-product__title tabs-site--btn">Плюсы</button>
+                                    <button type="button" class="tabs-product__title tabs-site--btn">Информация</button>
+                                    <button type="button" class="tabs-product__title tabs-site--btn">Видеообзор</button>
+                                </nav>
+                            </div>
+                            <div data-tabs-body class="tabs-product__content tabs-site--content">
+                                <div class="tabs-product__body tabs-site--body">
+                                    <div class="tabs-product__block">
+                                        <div class="tabs-product__inner inner-product">
+                                            <div class="inner-product__texts">
+                                                <h3 class="inner-product__title">Название</h3>
+                                                <p class="inner-product__descr">
+                                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                                </p>
+                                                <p class="inner-product__descr">
+                                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                                </p>
+                                            </div>
+                                            <button data-popup="#call" class="inner-product__btn">Заказать звонок</button>
+                                        </div>
+                                        <div class="tabs-product__image-ibg">
+                                            <img src="@img/catalog/twoLevel/image-big_2.jpg" alt="потолок">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tabs-product__body tabs-site--body">
+                                    Содержимое второго таба
+                                </div>
+                                <div class="tabs-product__body tabs-site--body">
+                                    Содержимое третьего таба
+                                </div>
+                                <div class="tabs-product__body tabs-site--body">
+                                    Содержимое 4 таба
+                                </div>
+                                <div class="tabs-product__body tabs-site--body">
+                                    Содержимое 5 таба
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>

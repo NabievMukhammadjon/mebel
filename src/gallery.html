@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/_head.htm',{
+	"title":"Галерея"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('sprite/sprite.svg,{})
+			@@include('html/_header.htm',{})
+			<main class="page page_inner">
+                <div class="page__header">
+                    <div class="page__container">
+                        <div class="page__controll">
+                            <nav class="page__breadcrumbs breadcrumbs">
+                                <ul class="breadcrumbs__list">
+                                    <li class="breadcrumbs__item">
+                                        <a href="/" class="breadcrumbs__link">Главная</a>
+                                    </li>
+                                    <li class="breadcrumbs__item">
+                                        <span class="breadcrumbs__current">Галерея</span>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="gallery">
+                    <div class="gallery__container">
+                        <h2 class="gallery__title">Наши выполненные объекты</h2>
+                        <div data-tabs class="gallery__tabs tabs-gallery tabs-site">
+                            <button class="tabs-site--mobile tabs-mobile-5 btn-blue">
+                                <span>Все</span>
+                                <svg class="icon">
+                                    <use xlink:href="#arrow-spoll"></use>
+                                </svg>
+                            </button>
+                            <div class="tabs-gallery__navs tabs-site--navs">
+                                <nav data-tabs-titles class="tabs-gallery__navigation tabs-site--nav">
+                                    <button type="button" class="tabs-gallery__title tabs-site--btn _tab-active">Все</button>
+                                    <button type="button" class="tabs-gallery__title tabs-site--btn">Матовые</button>
+                                    <button type="button" class="tabs-gallery__title tabs-site--btn">Глянцевые</button>
+                                    <button type="button" class="tabs-gallery__title tabs-site--btn">Сатиновые</button>
+                                    <button type="button" class="tabs-gallery__title tabs-site--btn">Тканевые</button>
+                                    <button type="button" class="tabs-gallery__title tabs-site--btn">С подсветкой</button>
+                                    <button type="button" class="tabs-gallery__title tabs-site--btn">Эксклюзивные</button>
+                                </nav>
+                            </div>
+                            <div data-tabs-body class="tabs-gallery__content tabs-site--content">
+                                <div class="tabs-gallery__body tabs-site--body">
+                                    <div class="tabs-gallery__row row-gallery">
+                                        <strong class="row-gallery__subtitle">Договор: 18983</strong>
+                                        <div class="row-gallery__content">
+                                            <div class="row-gallery__slider first-gallery">
+                                                <div data-gallery class="row-gallery__swiper">
+                                                    <a href="@img/gallery/gallery-1.jpg" class="row-gallery__slide site-slide">
+                                                        <div class="row-gallery__glass site-slide_glass">
+                                                            <div class="row-gallery__glass-box site-slide_glass-box">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#glass"></use>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-gallery__img-ibg site-slide_img">
+                                                            <img src="@img/gallery/gallery-1.jpg" alt="потолки">
+                                                        </div>
+                                                    </a>
+                                                    <a href="@img/gallery/image_big-1.jpg" class="row-gallery__slide site-slide">
+                                                        <div class="row-gallery__glass site-slide_glass">
+                                                            <div class="row-gallery__glass-box site-slide_glass-box">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#glass"></use>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-gallery__img-ibg site-slide_img">
+                                                            <img src="@img/gallery/image_big-1.jpg" alt="потолки">
+                                                        </div>
+                                                    </a>
+                                                    <a href="@img/gallery/gallery-3.jpg" class="row-gallery__slide site-slide">
+                                                        <div class="row-gallery__glass site-slide_glass">
+                                                            <div class="row-gallery__glass-box site-slide_glass-box">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#glass"></use>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-gallery__img-ibg site-slide_img">
+                                                            <img src="@img/gallery/gallery-3.jpg" alt="потолки">
+                                                        </div>
+                                                    </a>
+                                                    <a href="@img/gallery/gallery-4.jpg" class="row-gallery__slide site-slide">
+                                                        <div class="row-gallery__glass site-slide_glass">
+                                                            <div class="row-gallery__glass-box site-slide_glass-box">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#glass"></use>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-gallery__img-ibg site-slide_img">
+                                                            <img src="@img/gallery/gallery-4.jpg" alt="потолки">
+                                                        </div>
+                                                    </a>
+                                                    <a href="@img/gallery/gallery-5.jpg" class="row-gallery__slide site-slide">
+                                                        <div class="row-gallery__glass site-slide_glass">
+                                                            <div class="row-gallery__glass-box site-slide_glass-box">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#glass"></use>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-gallery__img-ibg site-slide_img">
+                                                            <img src="@img/gallery/gallery-5.jpg" alt="потолки">
+                                                        </div>
+                                                    </a>
+                                                    <a href="@img/gallery/gallery-6.jpg" class="row-gallery__slide site-slide">
+                                                        <div class="row-gallery__glass site-slide_glass">
+                                                            <div class="row-gallery__glass-box site-slide_glass-box">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#glass"></use>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-gallery__img-ibg site-slide_img">
+                                                            <img src="@img/gallery/gallery-6.jpg" alt="потолки">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="row-gallery__controll controll-gallery-slider">
+                                                    <div class="controll-gallery-slider__blocks">
+                                                        <button type="button" class="controll-gallery-slider__prev first-gallery_prev">
+                                                            <svg class="icon">
+																<use xlink:href="#arrow-swiper"></use>
+															</svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="controll-gallery-slider__blocks">
+                                                        <button type="button" class="controll-gallery-slider__next first-gallery_next">
+                                                            <svg class="icon">
+																<use xlink:href="#arrow-swiper"></use>
+															</svg>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row-gallery__images images-gallery">
+                                                <ul class="images-gallery__list">
+                                                    <li class="images-gallery__item">
+                                                        <img src="@img/gallery/gallery-1.jpg" alt="потолки">
+                                                    </li>
+                                                    <li class="images-gallery__item">
+                                                        <img src="@img/gallery/gallery-2.jpg" alt="потолки">
+                                                    </li>
+                                                    <li class="images-gallery__item">
+                                                        <img src="@img/gallery/gallery-3.jpg" alt="потолки">
+                                                    </li>
+                                                    <li class="images-gallery__item">
+                                                        <img src="@img/gallery/gallery-4.jpg" alt="потолки">
+                                                    </li>
+                                                    <li class="images-gallery__item">
+                                                        <img src="@img/gallery/gallery-5.jpg" alt="потолки">
+                                                    </li>
+                                                    <li class="images-gallery__item">
+                                                        <img src="@img/gallery/gallery-6.jpg" alt="потолки">
+                                                    </li>
+                                                </ul>
+                                                <div class="images-gallery__btns">
+                                                    <button type="button" class="images-gallery__btn">Назад</button>
+                                                    <button type="button" class="images-gallery__btn images-gallery__btn_blue">Далее</button>
+                                                </div>
+                                            </div>
+                                            <div class="row-gallery__thumbs thumbs-gallery">
+                                                <!--  -->
+                                                <div class="row-gallery__thumbs thumbs-gallery thumbs-gallery--1">
+                                                    <div class="thumbs-gallery__slider">
+                                                        <div class="thumbs-gallery__swiper">
+                                                            <div class="thumbs-gallery__slide-ibg">
+                                                                <img src="@img/gallery/gallery-1.jpg" alt="Натяжные потолки">
+                                                            </div>
+                                                            <div class="thumbs-gallery__slide-ibg">
+                                                                <img src="@img/gallery/gallery-2.jpg" alt="Натяжные потолки">
+                                                            </div>
+                                                            <div class="thumbs-gallery__slide-ibg">
+                                                                <img src="@img/gallery/gallery-3.jpg" alt="Натяжные потолки">
+                                                            </div>
+                                                            <div class="thumbs-gallery__slide-ibg">
+                                                                <img src="@img/gallery/gallery-4.jpg" alt="Натяжные потолки">
+                                                            </div>
+                                                            <div class="thumbs-gallery__slide-ibg">
+                                                                <img src="@img/gallery/gallery-5.jpg" alt="Натяжные потолки">
+                                                            </div>
+                                                            <div class="thumbs-gallery__slide-ibg">
+                                                                <img src="@img/gallery/gallery-6.jpg" alt="Натяжные потолки">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--  -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabs-gallery__row row-gallery">
+                                        <strong class="row-gallery__subtitle">Договор: 13572</strong>
+                                        <div class="row-gallery__content">
+                                            <div class="row-gallery__slider second-gallery">
+                                                <div data-gallery class="row-gallery__swiper">
+                                                    <a href="@img/gallery/gallery-1.jpg" class="row-gallery__slide site-slide">
+                                                        <div class="row-gallery__glass site-slide_glass">
+                                                            <div class="row-gallery__glass-box site-slide_glass-box">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#glass"></use>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-gallery__img-ibg site-slide_img">
+                                                            <img src="@img/gallery/gallery-1.jpg" alt="потолки">
+                                                        </div>
+                                                    </a>
+                                                    <a href="@img/gallery/gallery-8.jpg" class="row-gallery__slide site-slide">
+                                                        <div class="row-gallery__glass site-slide_glass">
+                                                            <div class="row-gallery__glass-box site-slide_glass-box">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#glass"></use>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-gallery__img-ibg site-slide_img">
+                                                            <img src="@img/gallery/gallery-8.jpg" alt="потолки">
+                                                        </div>
+                                                    </a>
+                                                    <a href="@img/gallery/gallery-3.jpg" class="row-gallery__slide site-slide">
+                                                        <div class="row-gallery__glass site-slide_glass">
+                                                            <div class="row-gallery__glass-box site-slide_glass-box">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#glass"></use>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-gallery__img-ibg site-slide_img">
+                                                            <img src="@img/gallery/gallery-3.jpg" alt="потолки">
+                                                        </div>
+                                                    </a>
+                                                    <a href="@img/gallery/image_big-2.jpg" class="row-gallery__slide site-slide">
+                                                        <div class="row-gallery__glass site-slide_glass">
+                                                            <div class="row-gallery__glass-box site-slide_glass-box">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#glass"></use>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-gallery__img-ibg site-slide_img">
+                                                            <img src="@img/gallery/image_big-2.jpg" alt="потолки">
+                                                        </div>
+                                                    </a>
+                                                    <a href="@img/gallery/gallery-5.jpg" class="row-gallery__slide site-slide">
+                                                        <div class="row-gallery__glass site-slide_glass">
+                                                            <div class="row-gallery__glass-box site-slide_glass-box">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#glass"></use>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-gallery__img-ibg site-slide_img">
+                                                            <img src="@img/gallery/gallery-5.jpg" alt="потолки">
+                                                        </div>
+                                                    </a>
+                                                    <a href="@img/gallery/gallery-6.jpg" class="row-gallery__slide site-slide">
+                                                        <div class="row-gallery__glass site-slide_glass">
+                                                            <div class="row-gallery__glass-box site-slide_glass-box">
+                                                                <svg class="icon">
+                                                                    <use xlink:href="#glass"></use>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-gallery__img-ibg site-slide_img">
+                                                            <img src="@img/gallery/gallery-6.jpg" alt="потолки">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="row-gallery__controll controll-gallery-slider">
+                                                    <div class="controll-gallery-slider__blocks">
+                                                        <button type="button" class="controll-gallery-slider__prev second-gallery_prev">
+                                                            <svg class="icon">
+																<use xlink:href="#arrow-swiper"></use>
+															</svg>
+                                                        </button>
+                                                    </div>
+                                                    <div class="controll-gallery-slider__blocks">
+                                                        <button type="button" class="controll-gallery-slider__next second-gallery_next">
+                                                            <svg class="icon">
+																<use xlink:href="#arrow-swiper"></use>
+															</svg>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row-gallery__images images-gallery">
+                                                <ul class="images-gallery__list">
+                                                    <li class="images-gallery__item">
+                                                        <img src="@img/gallery/gallery-1.jpg" alt="потолки">
+                                                    </li>
+                                                    <li class="images-gallery__item">
+                                                        <img src="@img/gallery/gallery-8.jpg" alt="потолки">
+                                                    </li>
+                                                    <li class="images-gallery__item">
+                                                        <img src="@img/gallery/gallery-3.jpg" alt="потолки">
+                                                    </li>
+                                                    <li class="images-gallery__item">
+                                                        <img src="@img/gallery/gallery-7.jpg" alt="потолки">
+                                                    </li>
+                                                    <li class="images-gallery__item">
+                                                        <img src="@img/gallery/gallery-5.jpg" alt="потолки">
+                                                    </li>
+                                                    <li class="images-gallery__item">
+                                                        <img src="@img/gallery/gallery-6.jpg" alt="потолки">
+                                                    </li>
+                                                </ul>
+                                                <div class="images-gallery__btns">
+                                                    <button type="button" class="images-gallery__btn">Назад</button>
+                                                    <button type="button" class="images-gallery__btn images-gallery__btn_blue">Далее</button>
+                                                </div>
+                                            </div>
+                                            <div class="row-gallery__thumbs thumbs-gallery">
+                                                <!--  -->
+                                                <div class="row-gallery__thumbs thumbs-gallery thumbs-gallery--2">
+                                                    <div class="thumbs-gallery__slider">
+                                                        <div class="thumbs-gallery__swiper">
+                                                            <div class="thumbs-gallery__slide-ibg">
+                                                                <img src="@img/gallery/gallery-1.jpg" alt="Натяжные потолки">
+                                                            </div>
+                                                            <div class="thumbs-gallery__slide-ibg">
+                                                                <img src="@img/gallery/gallery-8.jpg" alt="Натяжные потолки">
+                                                            </div>
+                                                            <div class="thumbs-gallery__slide-ibg">
+                                                                <img src="@img/gallery/gallery-3.jpg" alt="Натяжные потолки">
+                                                            </div>
+                                                            <div class="thumbs-gallery__slide-ibg">
+                                                                <img src="@img/gallery/gallery-7.jpg" alt="Натяжные потолки">
+                                                            </div>
+                                                            <div class="thumbs-gallery__slide-ibg">
+                                                                <img src="@img/gallery/gallery-5.jpg" alt="Натяжные потолки">
+                                                            </div>
+                                                            <div class="thumbs-gallery__slide-ibg">
+                                                                <img src="@img/gallery/gallery-6.jpg" alt="Натяжные потолки">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--  -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tabs-gallery__body tabs-site--body">
+                                    Содержимое второго таба
+                                </div>
+                                <div class="tabs-gallery__body tabs-site--body">
+                                    Содержимое третьего таба
+                                </div>
+                                <div class="tabs-gallery__body tabs-site--body">
+                                    Содержимое 4 таба
+                                </div>
+                                <div class="tabs-gallery__body tabs-site--body">
+                                    Содержимое 5 таба
+                                </div>
+                                <div class="tabs-gallery__body tabs-site--body">
+                                    Содержимое 6 таба
+                                </div>
+                                <div class="tabs-gallery__body tabs-site--body">
+                                    Содержимое 7 таба
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+			@@include('html/_footer.htm',{})
+		</div>
+		@@include('html/_popup.htm',{})
+		@@include('html/_js.htm',{})
+	</body>
+</html>
